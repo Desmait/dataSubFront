@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import {UserService} from '../../Services/user.service';
+import {Component, OnInit} from '@angular/core';
 import {AuthService} from '../../Services/auth.service';
 import {Router} from '@angular/router';
 
@@ -11,8 +10,10 @@ import {Router} from '@angular/router';
 export class MainComponent implements OnInit {
   email: string;
   login: string;
+
   constructor(private router: Router,
-              private authService: AuthService) { }
+              private authService: AuthService) {
+  }
 
   ngOnInit() {
     if (localStorage.getItem('token')) {

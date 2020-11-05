@@ -6,7 +6,6 @@ import { LoginComponent } from './Components/login/login.component';
 import { RegistrationComponent } from './Components/registration/registration.component';
 import { MainComponent } from './Components/main/main.component';
 import {AuthService} from './services/auth.service';
-import {UserService} from './services/user.service';
 import {HttpClientModule, HTTP_INTERCEPTORS} from '@angular/common/http';
 import {RouterModule} from '@angular/router';
 import {AppRoutingModule} from './app-routing.module';

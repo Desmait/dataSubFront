@@ -20,10 +20,6 @@ export class AuthService extends BaseApi {
     return this.post(`api/login`, user);
   }
 
-  loggedIn(): boolean {
-    return !!localStorage.getItem('token');
-  }
-
   getToken() {
     return localStorage.getItem('token');
   }
