@@ -1,1 +1,54 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+app-root {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #444;
+  font-size: 22px;
+  font-family: "Roboto Thin", sans-serif;
+}
+
+h1 {
+  margin-bottom: 25px;
+}
+
+.reg-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reg-block input {
+  margin: 10px;
+  padding: 4px 0 4px 12px;
+  height: 30px;
+  width: 328px;
+  border: none;
+  /*border-bottom: 2px solid #cacaca;*/
+  box-shadow: 4px 4px 25px 0 rgba(0,0,0,0.2);
+}
+
+.reg-block button {
+  background-color: #444;
+  color: #fff;
+  border: none;
+  height: 38px;
+  margin-top: 25px;
+  width: 132px;
+  box-shadow: 4px 4px 25px 0 rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+.reg-block button:hover {
+  box-shadow: 4px 4px 25px 0 rgba(0,150,0,0.2);
+}
